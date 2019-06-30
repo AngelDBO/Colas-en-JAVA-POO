@@ -36,7 +36,7 @@ public class clase {
         if (tope == null) {
             tope = base = p;
             base.siguiente = tope;
-            JOptionPane.showMessageDialog(null, "Elemeto agradoa a la cola");
+            JOptionPane.showMessageDialog(null, "Elemento agregado a la cola");
         } else {
             p.siguiente = tope;
             base.siguiente = p;
